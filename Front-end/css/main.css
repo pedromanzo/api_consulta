@@ -1,0 +1,110 @@
+body{
+  background-image: url("1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #2c2c2c;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  height: 100vh;
+  margin: 0;
+}
+.topo {
+  box-sizing: 5px;
+  width: 100%;
+  border: 1px solid blue;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+
+}
+.modal{
+  display: none;
+  position: fixed;
+  width: 50%;
+  top: 10%;
+  left: 25%;
+  box-sizing: border-box;
+  padding: 0px 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #F8F8F8;
+  box-shadow: 1px 1px 10px black;
+  text-align: center;
+
+}
+.fecharModal{
+  position: absolute;
+  box-sizing: border-box;
+  padding: 10px;
+  top: 0;
+  right: 0;
+  background-color: red;
+  color: white;
+  text-decoration: none;
+}
+.fecharModal:hover{
+  transition: 0.2s;
+  background-color: orange;
+}
+.textoModal{
+  font-size: 0.9em;
+  line-height: 25px;
+  color: black;
+
+}
+.button{
+  background-color: white;
+  color: black;
+  border: 2px solid blue;
+  padding: 10px;
+}
+.button:hover {
+  background-color: blue;
+  color: white;
+}
+select{
+  width: 100%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+}
+input{
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+}
+
+#veiculo div{
+  display: none;
+
+}
+.selec_car{
+  position: absolute;
+  padding: 0 10px;
+  height: 55%;
+  width: 30%;
+  top: 20%;
+  left: 10%;
+  border: 1px solid black;
+  background-color: white;
+  text-align: center;
+  box-shadow: 1px 1px 5px black;
+  margin: 10px;
+}
+
+.rodape{
+  border: 1px solid blue;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  position:absolute;
+  bottom:0;
+  width:100%;
+}
