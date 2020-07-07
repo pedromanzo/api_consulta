@@ -1,2 +1,2 @@
 # api_consulta
-Para a construção dessa API Rest foi utilizado o Loravel (frameworks php) e no front-end foi utilizado html, css e javascript. Erros: O front-end não está lincado com o API e não foi criado dentro da API os cálculos solicitados.
+Para a construção dessa API Rest foi utilizado o Loravel (frameworks php) e no front-end foi utilizado html, css e javascript. Erros: O front-end não está lincado com o API e não foi criado dentro da API os cálculos solicitados. Referente ao API de calculo, eu tenho a estrutura lógica na minha cabeça, consigo pasasr para o papel, mas na hora de passar para o código fico preso elaboração.
